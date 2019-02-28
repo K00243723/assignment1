@@ -1,0 +1,125 @@
+#wrapper{
+    border:1px solid black;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#225270;
+    font-family:sans-serif;
+}
+
+#header{
+   // height:2.38em;
+}
+#header img{
+    padding: 5px;
+    float:left;
+    background-color: #225270 ;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#header h1{
+    margin-left: 350px;
+    padding-top: 35px;
+   font-size: 3em;
+    color:azure;
+    font-family:inherit;
+}
+#nav{
+    clear:both;
+    margin-left:20px;
+    font-size:1.1em;
+
+}
+#nav ul{
+    margin:0;
+    margin-left: -3.30em;   
+}
+#nav ul li{
+    display: inline-block;  
+    padding: 0.3em;
+   
+}
+#nav ul li a{
+    text-decoration: none;
+    color:#de8118;
+    font-weight:bold;
+    font-size: 1.1em;   
+}
+#nav a:hover{
+    //text-decoration: underline;
+    border-bottom: 0.20em solid;
+    
+}
+#nav a.currentpage{
+    color:azure;
+    border-bottom: 0.20em solid;
+}
+
+#nav a:link,#nav a:visited{
+   // color: darkviolet;
+}
+#nav .search{
+    float: right;
+    width: 24%;
+    margin-top: -25px;   
+}
+h3{
+    color: white;
+    margin-left: 420px;
+    margin-top: 150px;
+    font-size: 2em;
+}
+.login label{
+    color: #de8118;
+     margin-left: 300px;
+}
+#uname{
+    margin-left: 10px;
+    line-height: 25px;
+    width: 250px;
+    border-radius: 5px;
+}
+#email{
+    margin-left: 33px;
+    line-height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+ #password{
+    margin-left: 20px;
+    line-height: 25px;
+    width: 250px;
+    border-radius: 5px;
+     margin-top: 10px;
+}
+#button{
+    margin-left: 450px;
+    line-height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+h5{
+    color: #de8118;
+    margin-left: 460px;
+    margin-top: -10px;
+}
+#advertise1{
+    margin-top: -110px;
+}
+#advertise2{
+    margin-left: 300px;
+    margin-top: -300px;
+    padding: 30px;
+}
+footer {
+    
+    height:70px;
+    clear: both;
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+   
+}
